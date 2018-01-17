@@ -62,4 +62,10 @@ describe('mommify', () => {
         expect(result).toEqual(expection);
     });
 
+    it('should return hmommyr when given heare', () => {
+        const expection = 'hmommyrmommy';
+        const result = mommy('heare');
+        expect(result).toEqual(expection);
+    });
+
 });
