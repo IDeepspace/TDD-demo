@@ -1,3 +1,5 @@
+const mommy = require('../src/mommy');
+
 describe('mommify', () => {
 
     it('should return b when given b', () => {
