@@ -21,7 +21,7 @@ function countStr(str) {
 //vowelProportionMoreThan 30%
 function vowelProportionMoreThan(str) {
     const counter = countStr(str);
-    if(str.length / counter > 0.3) {
+    if (counter / str.length > 0.3) {
         return true;
     }else {
         return false;
@@ -53,7 +53,5 @@ function mommy(str) {
         return str;
     }
 }
-
-console.log(mommy('asead'));
 
 module.exports = mommy;
